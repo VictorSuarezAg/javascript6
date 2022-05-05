@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=T, initial-scale=1.0">
+    <title>Taller 6</title>
+</head>
+<body>
+    <h1>ECMAScript 6</h1>
+    <h2>¿Que es ES6?</h2>
+    <p>ECMAScript (o ES para abreviar) es el nombre real, comercial de JavaScript. ES6 indica la sexta versión del lenguaje.
+    
+    Cada versión ha agregado cosas nuevas, manteniendo la compatibilidad con las versiones anteriores, ya que depende mucho
+    de que los motores que corren el lenguaje (navegadores, node, y demás) implementen estas nuevas características ellos
+    mismos.</p>
+
+    <h2>Cambios en ES6</h2>
+    <h3>Scope variables</h3>
+    <p>Las declaraciones de variables en contexto de ejecución es algo que se había pedido hace mucho tiempo y que al fin
+    tenemos. Anterior a esto todas las variables (declaradas con var) pasaban al scope global de ejecución, por ejemplo, en
+    un navegador las variables declaradas pasaban a formar parte del global window. Ahora dos tipos de declaración de
+    variables han sido agregadas let y const.
+    
+    Let es el nuevo var pero mejor ya que su declaración se limita al contexto en el que se declaró.</p>
+    <p>Por otro lado, const nos permite crear un valor que no puede ser redeclarado después de inicializarlo.</p>
+    <button class="scope">Mostrar Ejemplo</button>
+    <br>
+    <h3>Plantillas cadena de texto</h3>
+    <p>Los template strings o plantillas de texto son una característica que nos permite interpolar expresiones en strings
+    entre muchas cosas más. Para ello en vez de usar comillas simples ' usamos tildes invertidas ` y las expresiones que
+    deseamos poner las colocamos dentro de llaves después de un signo de dólar.</p>
+    <button class="plantillaString">Mostrar Ejemplo</button>
+    <br>
+    <h3>Arrow functions</h3>
+    <p>Uno de los favoritos y más sencillos. Las arrow functions (arrow function) son una nueva forma de escribir funciones en
+    JavaScript más elegante y sencilla, en especial para funciones cortas. Una arrow function se compone de un par de
+    paréntesis para los parámetros, un símbolo de flecha (=>, signo de igual y luego mayor qué) y llaves: (arg1, arg2) => {
+    // función }. Más simple, sencilla pero la mayor ventaja es que esta función devuelve automáticamente la expresión
+    después de la flecha si no se ponen las llaves.</p>
+    <button class="arrowFunction">Mostrar Ejemplo</button>
+    <br>
+    <h3>Destructuring</h3>
+    <p>La desestructuración es una expresión de JavaScript que hace posible la extracción de datos de arreglos u objetos usando
+    la misma sintaxis utilizada para crearlos.</p>
+    <button class="destructuracion">Mostrar Ejemplo</button>
+    <br>
+    <h3>Operador Rest/Spread</h3>
+    <p>Este operador va de la mano con el anterior ya que nos permite asignar el resto de valores a otra variable ayudándonos
+    por ejemplo a eliminar entradas no deseadas de un objeto o arreglo. Este operador son tres puntos seguidos del nombre de
+    la variable donde deseamos almacenar el resto.
+    </p>
+    <button class="btnrest">Mostrar Ejemplo Rest</button>
+    <br><br>
+    <button class="btnspread">Mostrar Ejemplo Spread</button>
+    <br>
+    <h3>Clases</h3>
+    <p>La programación orientada a objetos en JavaScript era algo complicada ya que el lenguaje no tenía clases, sino objetos
+    con un prototype, esto sigue siendo así, pero ahora hay una forma más declarativa de crear objetos y clases aunque sigan
+    comportándose igual.</p>
+    <button class="btnclases">Mostrar Ejemplo</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <script src="js/index.js"></script>
+</body>
+</html>
